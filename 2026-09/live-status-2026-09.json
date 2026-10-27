@@ -1,0 +1,167 @@
+{
+  "note": "ADDITIVE live-status layer for the /data dataset and /aglc-tracker, started 2026-07-13 (Alberta market opening day). Maps registry brands (keys must match aglc-registry.json `brand` verbatim) to their public live-in-Alberta status. The registration layer in aglc-registry.json stays canonical and untouched. Semantics: live_confirmed = public first-party or strong secondary evidence the operator is accepting AB customers today; launch_announced = operator publicly announced AB launch/day-one participation but live acceptance not verified; stated_later = operator publicly stated it will NOT be live at launch. A brand ABSENT from this file is no_signal — no public evidence either way; that is the honest default, never guessed. HARD RULES: no guessed statuses, no fabricated URLs — every entry needs a verifiable public source that resolves. Do NOT infer live status from an operator having a .ca site (Ontario sites exist for most brands). live_asof = date the evidence was checked. NO bonus/promo info in this layer, ever.",
+  "tracking_started": "2026-07-13",
+  "checked_asof": "2026-09-13",
+  "statuses": {
+    "Play Alberta": {
+      "live_status": "live_confirmed",
+      "live_source": "https://aglc.ca/playalberta",
+      "live_asof": "2026-07-13"
+    },
+    "FanDuel": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "DraftKings": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "BetMGM": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "BetRivers": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "Caesars Sportsbook, Horseshoe Online Casino, Caesars Palace Online": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "theScoreBet; theScoreCasino, HollywoodCasino(PENN)": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "Golden Nugget Online Gaming": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "betty": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "Tonybet": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "River Cree iGaming": {
+      "live_status": "stated_later",
+      "live_source": "https://www.cp24.com/news/canada/2026/07/13/regulated-igaming-market-goes-live-in-alberta-government-aims-to-box-out-grey-market/",
+      "live_asof": "2026-07-13"
+    },
+    "bet365": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "bet365 (casino)": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "PointsBet, PointsBet Canada": {
+      "live_status": "launch_announced",
+      "live_source": "https://www.covers.com/industry/alberta-igaming-market-sports-betting-day-one-launches-july-2026",
+      "live_asof": "2026-07-13"
+    },
+    "Sports Interaction": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-23"
+    },
+    "Partycasino": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-23"
+    },
+    "Betnova": {
+      "live_status": "launch_announced",
+      "live_source": "https://www.gamingnewscanada.ca/p/inside-betnovas-push-into-canadas",
+      "live_asof": "2026-07-13"
+    },
+    "Betway": {
+      "live_status": "launch_announced",
+      "live_source": "https://www.covers.com/industry/alberta-igaming-market-sports-betting-day-one-launches-july-2026",
+      "live_asof": "2026-07-13"
+    },
+    "PowerPlay": {
+      "live_status": "launch_announced",
+      "live_source": "https://www.yogonet.com/international/news/2026/05/22/121393-powerplay-confirms-alberta-entry-ahead-of-july-13-regulated-market-launch",
+      "live_asof": "2026-07-13"
+    },
+    "DAZNBET": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "BetVictor": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "CasinoDays": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "Delta Casino": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "Lucky Days": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "stardustcasino": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-07-14"
+    },
+    "BallyBet Sportsbook and Casino": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-08-05"
+    },
+    "Monopoly Casino & Sportsbook": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-08-05"
+    },
+    "Pure Casino": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-08-06"
+    },
+    "casinotime": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-08-24"
+    },
+    "Vegas Club Casino": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-08-24"
+    },
+    "Royal Vegas": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-09-02"
+    },
+    "Ruby Fortune": {
+      "live_status": "live_confirmed",
+      "live_source": "https://www.abigaming.ca/players/approved-igaming-sites/",
+      "live_asof": "2026-09-13"
+    }
+  }
+}
